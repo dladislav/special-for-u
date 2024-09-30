@@ -1,0 +1,4 @@
+# robots.txt for https://www.neschool.com.ua/
+
+User-agent: *
+Disallow: /data/

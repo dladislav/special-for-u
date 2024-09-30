@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html xml:lang="uk-UA" lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta property="og:url" content="https://www.neschool.com.ua/contact">
+    <meta property="og:title" content="Почати Безкоштовно - NeSchool">
+    <meta property="og:description" content="Думай англійською!">
+    <title>Почати Безкоштовно - NeSchool</title>
+    <meta name="Description" content="Думай англійською!">
+    <meta property="og:image" content="https://neschool.com.ua/open_graph_logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="NeSchool">
+    <meta name="robots" content="index, follow">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#edf3fa">
+    <meta name="msapplication-navbutton-color" content="#edf3fa">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#edf3fa">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://kit.fontawesome.com/463f95e7f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="globalnav">
+        <div class="flyout_nav">
+            <div class="nav_content_wrapper">
+                <a class="logo_link" href="index.html">
+                    <img class="logo_img" src="/logo.png">
+                    <p class="logo_text">NeSchool</p>                
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="get_contact">
+        <div class="contact_container">  
+            <div class="contact_icon_container">
+                <img class="contact_emoji" src="/brian_contact.png">
+            </div> 
+            <h1 class="contact_page_title">Прокачай англійську. <br> Прокачай себе.</h1>
+            <h3 class="contact_page_undtitle">Даруємо до 3 уроків новим студентам *</h3>     
+            <div class="user-box_container">
+                <div class="contact_row_box">
+                    <div class="name_box">
+                        <div class="user-box margin one">
+                            <input id="nameInput" class="contact_input first-input" type="text" name="name" required>
+                            <label class="first-label">Ім'я</label>
+                        </div>
+                        <div class="contact_error_container one">
+                            <p class="error_msg">   
+                                <span class="material-symbols-outlined">error</span> 
+                                Будь ласка, введіть своє Ім'я.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="phone_box">
+                        <div class="user-box three">
+                            <input id="phoneInput" class="contact_input third-input" type="tel" name="phone" required>
+                            <select  class="countryCode" class="contact_input third-input" name="countryCode" required>
+                                <option value="+1">+380</option>
+                                <option value="+44">+49</option>
+                                <option value="+44">+48</option>
+                                <option value="+44">+44</option>
+                                <option value="+44">+39</option>
+                                <option value="+44">+33</option>
+                                <option value="+44">+34</option>
+                                <option value="+44">+43</option>
+                                <option value="+44">+420</option>
+                                <option value="+44">+32</option>
+                                <option value="+44">+353</option>
+                            </select>
+                            <label class="third-label">
+                                Номер Телефону
+                            </label>
+                        </div>
+                        <div class="contact_error_container three">
+                            <p class="error_msg">  
+                                <span class="material-symbols-outlined">error</span> 
+                                Будь ласка, введіть свій Номер Телефону.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <p class="contact_page_policy">
+                    Натискаючи Записатися, 
+                    ви приймаєте нашу <br> <a href="policy.html" target="_blank">Політику Конфіденційності</a> та <a href="terms.html" target="_blank">Умови Використання</a>.
+                </p>
+                <button id="submitBtn" class="contact_btn">Подати заявку</button> 
+            </div>
+        </div> 
+        <div class="contact_container_filled">    
+            <div class="contact_container_wrapper"> 
+                <div class="contact_icon_container">
+                    <img class="contact_emoji" src="/brian_banner.png">
+                </div> 
+                <h1 class="contact_succ_title">
+                    Заявка успішно<br class="mob"> відправлена!
+                </h1>
+            </div>
+        </div>
+        <div class="contact_container_error">    
+            <img class="contact_emoji" src="/error_emoji.png">
+            <h1 class="contact_succ_title">
+                Щось пішло не так. 
+            </h1>
+            <p class="contact_succ_content">
+                Будь ласка, спробуйте пізніше.
+            </p>
+        </div>
+        
+    </section>
+    <footer class="contact">
+        <div class="under_faq_container_auto">
+            <div class="social_media_container">
+                <a class="social" href="https://instagram.com/neschool.ua?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                    <img class="instagram" src="/instagram.svg" alt="Instagram" ontouchstart="">
+                </a>
+                <a class="social" href="https://www.tiktok.com/@ne_school?_t=8ePz6t5urIx&_r=1" target="_blank">
+                    <img class="tiktok" src="/tiktok.svg" alt="TikTok" ontouchstart="">
+                </a>
+            </div>
+            <div class="policy_link"> 
+                <div class="row_wrapper">
+                    <a class="link_text left" href="policy.html" target="_blank" ontouchstart=""> Політика Конфіденційності </a>
+                    <a class="link_text" href="terms.html" target="_blank" ontouchstart=""> Умови Використання </a>
+                </div>
+                <p class="copyright">
+                    Copyright © 2024 NeSchool. Всі права захищені.
+                </p>
+            </div>
+        </div>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@id": "https://www.neschool.com.ua/#organization",
+                "@type": "Organization",
+                "name": "Neschool",
+                "url": "https://www.neschool.com.ua/",
+                "logo": "https://neschool.com.ua/organization_logo.png",
+                "contactPoint": [
+                    {
+                        "@type": "ContactPoint",
+                        "telephone": "+380738433227",
+                        "email": "info@neschool.com.ua",
+                        "contactType": "sales",
+                        "areaServed": "UA",
+                        "availableLanguage": ["EN", "UA"]
+                    },
+                    {
+                        "@type": "ContactPoint",
+                        "telephone": "+380738433227",
+                        "contactType": "customer support",
+                        "email": "info@neschool.com.ua",
+                        "areaServed": "UA",
+                        "availableLanguage": ["EN", "UA"]
+                    }
+                ],
+                "sameAs": [
+                    "https://instagram.com/neschool.ua",
+                    "https://www.tiktok.com/@ne_school"
+                ]
+            }
+        </script>
+    </footer>
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "ContactPage",
+          "name": "Подати заявку",
+          "url": "https://www.neschool.com.ua/contact/",
+          "mainEntityOfPage": {
+            "@type": "CollectionPage",
+            "name": "Neschool",
+            "url": "https://www.neschool.com.ua/"
+          }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
